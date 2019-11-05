@@ -1,5 +1,13 @@
 ## Build instructions:
 
+Create db.js file that contains MongoDB URI:
+```
+module.exports = {
+  url:"mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[database][?options]]"
+};
+```
+
+Run the following commands in terminal:
 ```
 npm install
 npm run dev
